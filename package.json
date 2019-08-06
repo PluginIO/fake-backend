@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc & npm start",
     "start": "node ./dist/server.js",
-    "dev": "nodemon ./dist/server.js localhost 8080",
+    "dev": "nodemon ./dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
