@@ -4,7 +4,7 @@
   "description": "Chester Zoo test server",
   "main": "src/server.ts",
   "scripts": {
-    "build": "tsc && start",
+    "build": "tsc & npm start",
     "prestart": "npm run build",
     "start": "node ./dist/server.js",
     "dev": "nodemon ./dist/server.js localhost 8080",
