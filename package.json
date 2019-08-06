@@ -5,7 +5,6 @@
   "main": "src/server.ts",
   "scripts": {
     "build": "tsc & npm start",
-    "prestart": "npm run build",
     "start": "node ./dist/server.js",
     "dev": "nodemon ./dist/server.js localhost 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
