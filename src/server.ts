@@ -1,6 +1,6 @@
 const express= require("express");
 const app = express();
-const port = 80; // default port to listen
+const port = process.env.PORT || 8080;
 
 // define a route handler for the default home page
 app.get( "/", ( req:any, res:any ) => {
